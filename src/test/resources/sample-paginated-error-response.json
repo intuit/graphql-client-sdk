@@ -1,0 +1,14 @@
+{
+  "data": {
+    "paginatedQuery": {
+      "node": "test",
+      "pageInfo": {
+        "endCursor": "endCursor",
+        "hasNextPage": false
+      }
+    }
+  },
+  "errors": [
+    { "message":  "so many errors" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "data": {
+    "paginatedQuery": {
+      "node": "test",
+      "pageInfo": {
+        "invalidProperty": true,
+        "iAmInvalid": "correct"
+      }
+    }
+  }
+}

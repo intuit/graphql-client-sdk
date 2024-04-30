@@ -1,0 +1,52 @@
+{
+  "errors": [
+    {
+      "message": "Input Format is Incorrect",
+      "extensions": {
+        "userMessage": "Allowed characters on a profile extensions profile Id are ^[a-zA-Z0-9_]+$",
+        "status_code": 400,
+        "ClientErrorCode": 1001,
+        "Error": "Input Format is Incorrect",
+        "error_code": "400",
+        "error_category": "INPUT"
+      }
+    }
+  ],
+  "data": {
+    "roles": {
+      "edges": [
+        {
+          "node": {
+            "canonicalName": "Intuit.sb.accountant.allaccess"
+          }
+        },
+        {
+          "node": {
+            "canonicalName": "Intuit.sb.manageCompany"
+          }
+        },
+        {
+          "node": {
+            "canonicalName": "Intuit.sb.manageSubscription"
+          }
+        },
+        {
+          "node": {
+            "canonicalName": "Intuit.sb.manageUsers"
+          }
+        },
+        {
+          "node": {
+            "canonicalName": "Intuit.sb.accountant.masteradmin"
+          }
+        },
+        {
+          "node": {
+            "canonicalName": "Intuit.sb.accountant.qbo"
+          }
+        }
+      ]
+    },
+    "profileExtensions": null
+  }
+}

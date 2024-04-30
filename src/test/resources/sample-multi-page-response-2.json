@@ -1,0 +1,11 @@
+{
+  "data": {
+    "paginatedQuery": {
+      "node": "test-2",
+      "pageInfo": {
+        "endCursor": "endCursor-2",
+        "hasNextPage": false
+      }
+    }
+  }
+}

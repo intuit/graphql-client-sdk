@@ -1,0 +1,10 @@
+{
+  "data": {
+    "paginatedQuery": {
+      "node": "test",
+      "pageInfo": {
+        "hasNextPage": true
+      }
+    }
+  }
+}

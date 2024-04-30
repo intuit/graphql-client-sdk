@@ -1,0 +1,15 @@
+{
+  "data": {
+    "account": {
+      "id": "4620816367134982470",
+      "status": "ACTIVE",
+      "accountType": "PERSON",
+      "namespaceId": "50000003",
+      "accountProfile": {
+        "id": "190b230f-5936-345f-844d-e76f6f3f1181",
+        "profileType": "PERSON",
+        "profileStatus": "ACTIVE"
+      }
+    }
+  }
+}
