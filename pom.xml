@@ -10,6 +10,7 @@
     <description>
         Intuit GraphQL client SDK library for Java. This library provides a client for executing GraphQL API's.
     </description>
+
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
@@ -20,6 +21,7 @@
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -138,8 +140,6 @@
     </dependencies>
 
     <dependencyManagement>
-        <!-- You may wish to let com.intuit.platform.jsk:jsk-bom manage your dependencies by importing it here,
-             as is done with junit-bom; in which case omit slf4j-api from here, as it is included by jsk-bom -->
         <dependencies>
             <dependency>
                 <groupId>org.slf4j</groupId>
@@ -231,26 +231,6 @@
                                 </goals>
                             </execution>
                         </executions>
-                    </plugin>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-gpg-plugin</artifactId>
-                        <version>1.6</version>
-                        <executions>
-                            <execution>
-                                <id>sign-artifacts</id>
-                                <phase>verify</phase>
-                                <goals>
-                                    <goal>sign</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                        <configuration>
-                            <gpgArguments>
-                                <arg>--pinentry-mode</arg>
-                                <arg>loopback</arg>
-                            </gpgArguments>
-                        </configuration>
                     </plugin>
                 </plugins>
             </build>
