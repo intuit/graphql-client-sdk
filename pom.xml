@@ -3,7 +3,7 @@
 
     <groupId>com.intuit</groupId>
     <artifactId>graphql-sdk</artifactId>
-    <version>2.0.15-SNAPSHOT</version>
+    <version>3.0.0</version>
     <packaging>jar</packaging>
     <name>GraphQL client SDK</name>
     <inceptionYear>2023</inceptionYear>
