@@ -29,7 +29,7 @@
             <organization>Intuit, Inc.</organization>
             <organizationUrl>http://www.intuit.com</organizationUrl>
         </developer>
-    <developers>   
+    </developers>   
 
     <distributionManagement>
         <snapshotRepository>
