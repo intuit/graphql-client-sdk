@@ -10,6 +10,26 @@
     <description>
         Intuit GraphQL client SDK library for Java. This library provides a client for executing GraphQL API's.
     </description>
+    <url>https://github.com/intuit/graphql-client-sdk</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+    <scm>
+        <url>https://github.com/intuit/graphql-client-sdk/tree/main</url>
+        <connection>scm:git:git://github.com/intuit/graphql-client-sdk.git</connection>
+        <developerConnection>scm:git:git@github.com:intuit/graphql-client-sdk.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <name>Sachin Maheshwari</name>
+            <id>sachinmaheshwari</id>
+            <organization>Intuit, Inc.</organization>
+            <organizationUrl>http://www.intuit.com</organizationUrl>
+        </developer>
+    <developers>   
 
     <distributionManagement>
         <snapshotRepository>
